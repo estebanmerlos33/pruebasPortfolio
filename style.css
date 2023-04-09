@@ -62,6 +62,7 @@ body {
     width: 95vw;
     height: 360vh;
     overflow-y: auto;
+
     color: var(--colorFuente);
 }
 
@@ -124,7 +125,7 @@ nav {
 
 }
 
-
+/*
 
 .saludo {
     display: block;
