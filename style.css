@@ -60,7 +60,7 @@ body {
     margin: auto;
     padding: 0;
     width: 95vw;
-    height: 360vh;
+    height: fit-content;
     overflow-y: auto;
 
     color: var(--colorFuente);
