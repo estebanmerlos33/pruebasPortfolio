@@ -18,7 +18,7 @@
 :root {
 
     --bgColor: rgb(14, 20, 27);
-    --bgColorGradient: linear-gradient(180deg, rgba(14, 20, 27, 1) 0%, rgba(13, 18, 25, 1) 100%);
+    /*--bgColorGradient: linear-gradient(180deg, rgba(14, 20, 27, 1) 0%, rgba(13, 18, 25, 1) 100%);*/
     --tamanoFuenteNav: 3em;
     --tamanoFuenteSeccion: 1.5em;
 
@@ -47,11 +47,12 @@ html {
     scroll-behavior: smooth;
     min-height: 100%;
 
+
 }
 
 body {
     background: var(--bgColor);
-    background: var(--bgColorGradient);
+    /*background: var(--bgColorGradient);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
