@@ -44,7 +44,6 @@
 
 html {
     font-size: calc(17px + 0.390625vw);
-
     scroll-behavior: smooth;
     min-height: 100%;
 
@@ -59,9 +58,9 @@ body {
     margin: 0;
     margin: auto;
     padding: 0;
-    width: 95vw;
+    width: 95%;
     height: fit-content;
-    overflow-y: auto;
+    overflow: visible;
 
     color: var(--colorFuente);
 }
