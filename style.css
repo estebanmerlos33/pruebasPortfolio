@@ -46,15 +46,14 @@ html {
     font-size: calc(17px + 0.390625vw);
     scroll-behavior: smooth;
     min-height: 100%;
-
-
 }
 
 body {
     background: var(--bgColor);
-    /*background: var(--bgColorGradient);*/
+    /*background: var(--bgColorGradient);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    */
     position: relative;
     margin: 0;
     margin: auto;
