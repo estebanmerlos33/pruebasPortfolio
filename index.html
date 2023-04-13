@@ -6,15 +6,16 @@
         <title>Esteban Merlos - Portfolio</title>
 
         <!-- javascript-->
-        <script src="./script.js"></script>
+        <script defer src="./script.js"></script>
         <!-- css -->
         <link rel="stylesheet" href="./style.css">
         <link href="https://fonts.cdnfonts.com/css/noe-display" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
     </head>
 
     <body>
-        <nav>
+        <nav class="hidden">
             <div class="atajoNav">
                 <a href="#presentacion" style="text-decoration: none;">
                     <div> Sobre mi</div>
@@ -36,205 +37,96 @@
                 </a>
             </div>
         </nav>
-
         <div id="container">
 
-            <!---
-            <div id="containerFoto" class="seccion">
+            <div id="containerFoto">
 
                 <div id="circulo">
-                    <img src="./src/fotoPresentacion.jpg">
+                    <img class='hidden' src="./src/fotoPresentacion.jpg">
                     <br>
                 </div>
             </div>
-            --->
+
             <div id="containerSaludo">
-                <div id="preTitulo" class="saludo">
-                    <p>
-                        Hola, mi nombre es Esteban
+
+                <div id="preTitulo" class="saludo hidden ">
+                    <p>Hola, mi nombre es Esteban
                     <p>
                 </div>
 
-                <div id="titulo" class="saludo">
+                <div id="titulo" class="saludo titulo typing-demo ">
 
-                    <h1>
-                        Desarrollador Web y Tester
-                    </h1>
+                    Desarrollador/Tester Web
+
                 </div>
+
             </div>
 
             <div id="presentacion" class="seccion">
                 <div class="tituloSeccion">Sobre mi</div>
                 <div class="contenidoSeccion">
-                    25 años<br>
-                    Nacido en Buenos Aires, Argentina<br>
-                    Graduado en Técnico Universitario en Informática <br>
-                    Gran interés por el desarrollo y testing web<br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, officiis modi. Similique sit quas neque
+                    temporibus accusantium eaque? Atque odit eligendi repellat autem facere aperiam nesciunt quasi
+                    accusamus voluptates modi.
+
                 </div>
 
             </div>
 
-            <div class="seccion">
-                <div class="tituloSeccion">Prueba Scroll</div>
-                <div class="contenidoSeccion">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
+            <div id="lineaTiempo" class="seccion">
 
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
-
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ullam totam quos omnis esse at
-                    neque, quaerat voluptatum optio fugiat perspiciatis voluptatem, possimus a expedita excepturi
-                    obcaecati qui et est!
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nulla ipsa ipsam vel
-                    laudantium error tenetur reiciendis. Vel ab voluptatum ullam dolor, adipisci doloribus ipsa
-                    repudiandae dolore atque velit vitae.
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis molestias quibusdam
-                    mollitia enim eos praesentium, et debitis, consequuntur repudiandae officiis quae ab ex veniam?
-                    Aspernatur et illum quidem placeat!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi culpa consequatur harum
-                    eaque et voluptas commodi iure suscipit iusto est sit? Voluptate, vero corrupti eum nulla ullam
-                    porro soluta.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione voluptate, dolor nisi
-                    animi laborum libero rerum distinctio, unde quia dolore nulla illo impedit totam architecto et
-                    corporis dignissimos repellendus!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto aut sunt rerum aliquam eius
-                    alias omnis inventore, tenetur quam, quae iure nobis? Ut aliquam autem architecto, dolore a
-                    aspernatur at?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae alias nesciunt porro totam
-                    sint iusto fuga magnam quisquam, minus eveniet cupiditate eius possimus, corrupti nihil, non illum
-                    iure earum.
-
+                <div class="timeline">
+                    <!----
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2017</h2>
+                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
+                                voluptua dignissim per, habeo iusto primis ea eam.</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2016</h2>
+                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
+                                voluptua dignissim per, habeo iusto primis ea eam.</p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2015</h2>
+                            <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto
+                                mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit
+                                voluptua dignissim per, habeo iusto primis ea eam.</p>
+                        </div>
+                    </div>
+                    --->
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2022 - Hoy</h2>
+                            <p>Analista QA en Getronics/Connectis</p>
+                        </div>
+                    </div>
+                    <div class="container left">
+                        <div class="content">
+                            <h2>2022</h2>
+                            <p>Egreso como Técnico Universitario en Informática</p>
+                        </div>
+                    </div>
+                    <div class="container right">
+                        <div class="content">
+                            <h2>2014</h2>
+                            <p>Egreso como Bachiller en Ciencias Sociales</p>
+                        </div>
+                    </div>
                 </div>
-
             </div>
 
             <div id="habilidades" class="seccion">
                 <div class="tituloSeccion">Habilidades</div>
                 <div class="subTituloSeccion">Programación</div>
-                <div class="contenidoSeccion contenidoHabilidades">
+                <div class="contenidoSeccion contenidoHabilidades hidden">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -248,9 +140,9 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" />
 
                 </div>
-                <!---
+
                 <div class="subTituloSeccion">Testing</div>
-                <div class="contenidoSeccion contenidoHabilidades">
+                <div class="contenidoSeccion contenidoHabilidades hidden">
                     <img src="https://asset.brandfetch.io/idIq_kF0rb/idZxkJkFIi.svg" />
                     <img src="https://asset.brandfetch.io/id3uyOwT-S/idgLpsQVbx.jpeg" />
                     <img src="https://asset.brandfetch.io/idD7RfhCFS/id3KSPzOxb.png" />
@@ -269,7 +161,7 @@
                 </div>
 
                 <div class="subTituloSeccion">Otras herramientas</div>
-                <div class="contenidoSeccion contenidoHabilidades">
+                <div class="contenidoSeccion contenidoHabilidades hidden">
 
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg" />
@@ -278,12 +170,9 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-                    --->
-            </div>
+                </div>
 
-            <!----
             </div>
-
             <div id="proyectos" class="seccion">
                 <div class="tituloSeccion">Proyectos</div>
                 <div class="contenidoSeccion">
@@ -296,12 +185,29 @@
 
             <div id="contacto" class="seccion">
                 <div class="tituloSeccion">Contacto</div>
+                <div class="contenidoSeccion contenidoHabilidades hidden">
+
+                    <a href="https://www.linkedin.com/in/esteban-merlos" target="_blank"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" /></a>
+
+                    <a href="https://gitlab.com/estebanmerlos33" target="_blank">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-plain-wordmark.svg" />
+                    </a>
+                    <a href="https://github.com/estebanmerlos33" target="_blank">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                    </a>
+
+                </div>
                 <div class="contenidoSeccion">
+
                     <form action="https://formspree.io/f/mnqygrnr" method="POST">
                         <div id="emailForm">
                             <label>
                                 Tu email:
-                                <input type="email" name="email" class="campoForm" required>
+                                <input type="email" name="email" class="campoForm " required>
                             </label>
                         </div>
                         <div id="mensajeForm">
@@ -316,9 +222,7 @@
 
                 </div>
             </div>
-            --->
         </div>
-
     </body>
 
 </html>
