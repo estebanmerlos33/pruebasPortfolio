@@ -208,7 +208,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 30ch;
+    width: 27ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -508,17 +508,15 @@ form button:hover {
 
 @media screen and (min-width: 800px) {
 
-    :root {
-        --tamanoIconos: 5em;
+    .typing-demo {
+        width: 24ch;
     }
 
-    /*
+
     html {
         font-size: calc(15px + 0.390625vw);
     }
-    */
 
-    /*
     :root {
         --tamanoFuenteSeccion: 1.5em;
         --tamanoIconos: 5em;
@@ -530,15 +528,15 @@ form button:hover {
     nav {
         font-size: 0.7em;
     }
-    
-    
+
+
 
     #circulo {
         background: rgb(150, 154, 156);
         border-radius: 50%;
         width: 10em;
         height: 10em;
-    }*/
+    }
 
 
 }
