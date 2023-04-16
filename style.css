@@ -186,7 +186,7 @@ nav {
 
 .saludo {
     display: block;
-    outline: red solid 2px;
+    outline: blue solid 2px;
 }
 
 
@@ -205,8 +205,10 @@ nav {
 
 }
 
+/*-----------------------------Typing-----------------------------*/
+
 .typing-demo {
-    width: 23ch;
+    width: 24ch;
     animation: typing 2s steps(24) alternate, blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -244,6 +246,7 @@ nav {
 
 
 .contenidoSeccion {
+    outline: blue solid 2px;
     margin-bottom: 2%;
     font-size: var(--tamanoCero);
 }
@@ -277,6 +280,7 @@ nav {
 }
 
 #habilidades {
+    outline: blue solid 2px;
     display: flex;
     justify-content: center;
     align-self: center;
