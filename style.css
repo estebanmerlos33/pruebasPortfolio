@@ -186,7 +186,7 @@ nav {
 
 .saludo {
     display: block;
-    outline: blue solid 2px;
+    outline: green solid 2px;
 }
 
 
@@ -209,7 +209,7 @@ nav {
 
 .typing-demo {
     width: 30ch;
-    animation: typing 2s steps(24) alternate, blink .5s step-end infinite alternate;
+    animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -246,7 +246,7 @@ nav {
 
 
 .contenidoSeccion {
-    outline: blue solid 2px;
+    outline: green solid 2px;
     margin-bottom: 2%;
     font-size: var(--tamanoCero);
 }
@@ -280,7 +280,7 @@ nav {
 }
 
 #habilidades {
-    outline: blue solid 2px;
+    outline: green solid 2px;
     display: flex;
     justify-content: center;
     align-self: center;
