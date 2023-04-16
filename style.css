@@ -189,7 +189,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 24ch;
+    width: 23ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -532,7 +532,7 @@ form button:hover {
     }
 
     .typing-demo {
-        width: 23ch;
+        width: 22ch;
     }
 
 
