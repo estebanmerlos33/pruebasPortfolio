@@ -186,7 +186,6 @@ nav {
 
 .saludo {
     display: block;
-    outline: green solid 2px;
 }
 
 
@@ -246,7 +245,6 @@ nav {
 
 
 .contenidoSeccion {
-    outline: green solid 2px;
     margin-bottom: 2%;
     font-size: var(--tamanoCero);
 }
@@ -280,7 +278,7 @@ nav {
 }
 
 #habilidades {
-    outline: green solid 2px;
+
     display: flex;
     justify-content: center;
     align-self: center;
@@ -512,11 +510,11 @@ form button:hover {
         width: 22ch;
     }
 
-
+    /*
     html {
         font-size: calc(15px + 0.390625vw);
     }
-
+*/
     :root {
         --tamanoFuenteSeccion: 1.5em;
         --tamanoIconos: 5em;
