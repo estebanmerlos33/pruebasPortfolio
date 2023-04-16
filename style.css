@@ -52,6 +52,7 @@
 
 
 body {
+    outline: rgb(236, 116, 100) solid 2px;
     background: var(--bgColor);
     /*background: var(--bgColorGradient);*/
     background-repeat: no-repeat;
@@ -207,7 +208,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 24ch;
+    width: 25ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -506,20 +507,21 @@ form button:hover {
 
 @media screen and (min-width: 800px) {
 
+    /*
     .typing-demo {
         width: 22ch;
     }
+*/
 
-    /*
     html {
         font-size: calc(15px + 0.390625vw);
     }
-*/
+
     :root {
         --tamanoFuenteSeccion: 1.5em;
         --tamanoIconos: 5em;
         --tamanoFuentePreTitulo: 1.5em;
-        --tamanoFuenteTitulo: 3.5em;
+        /*-tamanoFuenteTitulo: 3.5em;*/
 
     }
 
