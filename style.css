@@ -189,7 +189,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 24ch;
+    width: 22ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -529,6 +529,10 @@ form button:hover {
 
     .timeline {
         font-size: var(--tamanoUno);
+    }
+
+    .typing-demo {
+        width: 23ch;
     }
 
 
