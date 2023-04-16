@@ -512,10 +512,6 @@ form button:hover {
         --tamanoIconos: 5em;
     }
 
-    .typing-demo {
-        width: 22ch;
-    }
-
     /*
     html {
         font-size: calc(15px + 0.390625vw);
