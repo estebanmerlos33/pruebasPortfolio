@@ -206,7 +206,7 @@ nav {
 }
 
 .typing-demo {
-    width: 22ch;
+    width: 23ch;
     animation: typing 2s steps(24) alternate, blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -506,6 +506,10 @@ form button:hover {
 
     :root {
         --tamanoIconos: 5em;
+    }
+
+    .typing-demo {
+        width: 22ch;
     }
 
     /*
