@@ -186,6 +186,7 @@ nav {
 
 .saludo {
     display: block;
+    outline: red solid 2px;
 }
 
 
@@ -197,6 +198,7 @@ nav {
 }
 
 #titulo {
+    width: 100%;
     font-weight: bold;
     font-size: var(--tamanoTres);
     color: var(--colorFuenteTitulo);
@@ -506,10 +508,11 @@ form button:hover {
         --tamanoIconos: 5em;
     }
 
-
+    /*
     html {
         font-size: calc(15px + 0.390625vw);
     }
+    */
 
     /*
     :root {
