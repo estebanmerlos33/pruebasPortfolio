@@ -19,26 +19,26 @@
     --bgColor: rgb(28, 44, 63);
     /*--bgColorGradient: linear-gradient(180deg, rgb(27, 39, 53) 0%, rgb(23, 32, 44) 100%);*/
 
-    --tamanoFuenteSeccion: 1em;
+    /*--tamanoFuenteSeccion: 1em;*/
 
     --fuente: Noe Display, Georgia, Tahoma;
     --colorFuente: rgb(160, 169, 187);
 
     --colorFuenteNav: rgb(212, 208, 208);
     --colorBgNav: rgb(29, 48, 70);
-    --tamanoFuenteNav: 2em;
+    /*--tamanoFuenteNav: 2em;*/
 
     --colorFuentePreTitulo: rgb(236, 116, 100);
-    --tamanoFuentePreTitulo: 1em;
+    /*--tamanoFuentePreTitulo: 1em;*/
 
     --colorFuenteTitulo: rgb(230, 216, 216);
     --tamanoFuenteTitulo: 3em;
 
-    --tamanoTituloSeccion: 1.7em;
-    --tamanoSubTituloSeccion: 1.4em;
+    /*--tamanoTituloSeccion: 1.7em;*/
+    /*--tamanoSubTituloSeccion: 1.4em;*/
 
     --tamanoIconos: 15em;
-    --tamanoFuenteForm: 1.5em;
+    /*--tamanoFuenteForm: 1.5em;*/
 
     --tamanoUno: 1em;
     --tamanoDos: 2em;
@@ -52,7 +52,7 @@
 
 
 body {
-    outline: rgb(236, 116, 100) solid 2px;
+    outline: rgb(100, 236, 100) solid 2px;
     background: var(--bgColor);
     /*background: var(--bgColorGradient);*/
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 25ch;
+    width: 24ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -517,12 +517,15 @@ form button:hover {
         font-size: calc(15px + 0.390625vw);
     }
 
+    body {
+        outline: purple solid 2px;
+    }
+
     :root {
         --tamanoFuenteSeccion: 1.5em;
         --tamanoIconos: 5em;
         --tamanoFuentePreTitulo: 1.5em;
         /*-tamanoFuenteTitulo: 3.5em;*/
-
     }
 
     nav {
