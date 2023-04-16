@@ -23,28 +23,18 @@
 
     --fuente: Noe Display, Georgia, Tahoma;
     --colorFuente: rgb(160, 169, 187);
-
     --colorFuenteNav: rgb(212, 208, 208);
     --colorBgNav: rgb(29, 48, 70);
-    /*--tamanoFuenteNav: 2em;*/
-
     --colorFuentePreTitulo: rgb(236, 116, 100);
-    /*--tamanoFuentePreTitulo: 1em;*/
-
     --colorFuenteTitulo: rgb(230, 216, 216);
-    --tamanoFuenteTitulo: 3em;
 
-    /*--tamanoTituloSeccion: 1.7em;*/
-    /*--tamanoSubTituloSeccion: 1.4em;*/
-
-    --tamanoIconos: 15em;
-    /*--tamanoFuenteForm: 1.5em;*/
-
+    --tamanoIconos: 10em;
+    --tamanoCero: 0.8em;
     --tamanoUno: 1em;
     --tamanoDos: 2em;
     --tamanoTres: 3em;
     --tamanoCuatro: 4em;
-    --tamanoCero: 0.8em;
+
 }
 
 
@@ -142,6 +132,10 @@ nav {
     margin-bottom: 7%;
 }
 
+.tituloSeccion {
+    font-size: var(--tamanoTres);
+}
+
 .contenidoSeccion {
     font-size: var(--tamanoUno);
 }
@@ -192,7 +186,7 @@ nav {
 
 
 #preTitulo {
-    font-size: var(--tamanoUno);
+    font-size: var(--tamanoDos);
     color: var(--colorFuentePreTitulo);
 
 }
@@ -200,7 +194,7 @@ nav {
 #titulo {
     width: 100%;
     font-weight: bold;
-    font-size: var(--tamanoTres);
+    font-size: var(--tamanoCuatro);
     color: var(--colorFuenteTitulo);
 
 }
@@ -208,7 +202,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 24ch;
+    width: 22ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -311,33 +305,29 @@ nav {
 
     width: 80%;
     color: var(--colorFuente);
-    font: var(--tamanoUno);
+    font: var(--tamanoDos);
 }
 
+
 #emailForm {
-    height: fit-content;
-    width: 50%;
     margin-bottom: 2%;
 }
 
+
+
 #emailForm input {
-    height: 1em;
-    border-color: var(--colorFuenteNav);
+    height: 2em;
 }
 
-
-#mensajeForm {
-    height: fit-content;
-}
-
-.contacto label {
-    font-size: var(--tamanoUno);
-}
 
 
 #mensajeForm textarea {
-    height: 10em;
+    height: 8em;
 }
+
+
+
+
 
 form button {
     margin-top: 1%;
@@ -366,7 +356,7 @@ form button:hover {
 
 
 
-/*Linea de tiempo*/
+/*---------------------------Linea de tiempo-------------------------------------*/
 
 .timeline * {
     box-sizing: border-box;
@@ -507,11 +497,17 @@ form button:hover {
 
 @media screen and (min-width: 1000px) {
 
-    /*
-    .typing-demo {
-        width: 22ch;
+    :root {
+        --tamanoCero: 0.5em;
+        --tamanoUno: 1.5em;
+        --tamanoDos: 2.5em;
+        --tamanoTres: 3em;
+        --tamanoCuatro: 4em;
+        --tamanoIconos: 5em;
     }
-*/
+
+
+
 
     html {
         font-size: calc(15px + 0.390625vw);
@@ -521,15 +517,10 @@ form button:hover {
         outline: purple solid 2px;
     }
 
-    :root {
-        --tamanoFuenteSeccion: 1.5em;
-        --tamanoIconos: 5em;
-        --tamanoFuentePreTitulo: 1.5em;
-        /*-tamanoFuenteTitulo: 3.5em;*/
-    }
+
 
     nav {
-        font-size: 0.7em;
+        font-size: var(--tamanoCero);
     }
 
 
@@ -539,6 +530,26 @@ form button:hover {
         border-radius: 50%;
         width: 10em;
         height: 10em;
+    }
+
+    .typing-demo {
+        width: 24ch;
+    }
+
+    .tituloSeccion {
+        font-size: var(--tamanoDos);
+    }
+
+    .subTituloSeccion {
+        font-size: var(--tamanoUno);
+    }
+
+    .contenidoSeccion {
+        font-size: var(--tamanoUno);
+    }
+
+    .timeline {
+        font-size: var(--tamanoUno);
     }
 
 
