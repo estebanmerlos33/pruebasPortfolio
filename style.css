@@ -38,7 +38,7 @@
 }
 
 body {
-    outline: rgb(100, 236, 100) solid 2px;
+    outline: rgb(226, 93, 4) solid 2px;
     background: var(--bgColor);
     /*background: var(--bgColorGradient);*/
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ nav {
 /*-----------------------------Typing-----------------------------*/
 
 .typing-demo {
-    width: 24ch;
+    width: 25ch;
     animation: typing 2s steps(24), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
