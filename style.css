@@ -1,25 +1,6 @@
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-/*
-@media screen and (min-width: 401px) {
-    html {
-        font-size: 18px;
-    }
-}
-*/
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-/*
-@media screen and (max-width: 400px) {
-    html {
-        font-size: 16px;
-    }
-}
-*/
 :root {
     --bgColor: rgb(28, 44, 63);
-    /*--bgColorGradient: linear-gradient(180deg, rgb(27, 39, 53) 0%, rgb(23, 32, 44) 100%);*/
 
-    /*--tamanoFuenteSeccion: 1em;*/
 
     --fuente: Noe Display, Georgia, Tahoma;
     --colorFuente: rgb(160, 169, 187);
@@ -229,7 +210,7 @@ nav {
 
 
 .contenidoSeccion {
-    margin-bottom: 2%;
+    margin-bottom: 3%;
     font-size: var(--tamanoCero);
 }
 
@@ -295,11 +276,16 @@ nav {
     width: 80%;
     color: var(--colorFuente);
     font: var(--tamanoDos);
+
 }
 
 
 #emailForm {
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+}
+
+#mensajeForm {
+    margin-bottom: 3%;
 }
 
 
@@ -309,7 +295,7 @@ nav {
 }
 
 #mensajeForm textarea {
-    height: 8em;
+    height: 12em;
 }
 
 form button {
@@ -349,7 +335,7 @@ form button:hover {
 .timeline {
     position: relative;
     width: 70%;
-    /*max-width: 1200px;*/
+    max-width: 1200px;
     margin: 0 auto;
     font-size: var(--tamanoUno);
 }
